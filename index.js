@@ -3,7 +3,7 @@ const loaderUtils = require('loader-utils')
 
 module.exports = function (source) {
   this.cacheable()
-  const options = loaderUtils.getOptions(this)
+  const options = { ...loaderUtils.getOptions(this) }
   const plugins = options.plugins || []
   delete options.plugins
 

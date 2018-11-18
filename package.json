@@ -1,6 +1,6 @@
 {
   "name": "md-it-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "markdown-it loader for webpack",
   "main": "index.js",
   "repository": "https://github.com/iamcco/md-it-loader.git",
